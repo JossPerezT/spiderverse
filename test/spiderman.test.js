@@ -4,7 +4,7 @@ describe ("Unit Tests for Spiderman class", () =>{
     test ('Case 1. Create an spiderman object', () =>{
         // Aqui vamos a escribir el código que queremos usar tal cual 
         // Queremos poder instanciar un objeto Spiderman co esta información 
-        const andrewGarfield = new Spiderman ("Spiderman Sony", 31, "Andrew Garfield", 2, "Sony")
+        const andrewGarfield = new Spiderman ("Spiderman Sony", 31, "Andrew Garfield", 31, "Sony")
         
         // Validamos que el código funcione de la forma esperada
         expect(andrewGarfield.name).toBe("Spiderman Sony")
