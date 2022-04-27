@@ -4,8 +4,11 @@
   "description": "Proyecto 2. Semana 3. Diseño de software con TDD",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/.bin/jest"
   },
   "author": "jocelynperez",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.2"
+  }
 }
